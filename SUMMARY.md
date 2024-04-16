@@ -4,9 +4,11 @@
 
 ## HTML
 
+* [Page 3](html/page-3.md)
+
 ## CSS
 
-* [Cheat Sheet](<README (1).md>)
+* [Cheat Sheet](css/cheatsheet.md)
 * [Selectors](css/selectors.md)
 * [Organise Properties](css/organise-properties.md)
 * [Units & Functions](css/units-and-functions.md)
