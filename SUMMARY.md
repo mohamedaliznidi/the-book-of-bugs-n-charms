@@ -1,10 +1,12 @@
 # Table of contents
 
+* [Front-End Development Documentation](README.md)
+
 ## HTML
 
 ## CSS
 
-* [Cheat Sheet](README.md)
+* [Cheat Sheet](<README (1).md>)
 * [Selectors](css/selectors.md)
 * [Organise Properties](css/organise-properties.md)
 * [Units & Functions](css/units-and-functions.md)
