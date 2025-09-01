@@ -4,7 +4,7 @@
 
 ## HTML
 
-* [Untitled](html/untitled.md)
+* [HTML Fundamentals](html/fundamentals.md)
 
 ## CSS
 
@@ -14,10 +14,12 @@
 * [Units & Functions](css/units-and-functions.md)
 * [Transitions](css/transitions.md)
 * [Animations](css/animations.md)
+* [Container Queries](css/container-queries.md)
+* [Advanced Grid Layouts](css/advanced-grid-layouts.md)
 
 ## Vanilla JS
 
-* [JS Cheat Sheet](vanilla-js/untitled.md)
+* [JavaScript Cheat Sheet](vanilla-js/cheatsheet.md)
 * [ApexChart.js](vanilla-js/apexchart.js.md)
 * [GridStack.js](vanilla-js/gridstack.js.md)
 * [Strip whitespace from JavaScript strings](vanilla-js/strip-whitespace-from-javascript-strings.md)
@@ -35,32 +37,42 @@
   * [useLayoutEffect](react/react-hooks/uselayouteffect.md)
   * [useImperativeHandle](react/react-hooks/useimperativehandle.md)
   * [useDebugValue](react/react-hooks/usedebugvalue.md)
-* [Writing Pure Functions in React Components](react/untitled.md)
+* [Writing Pure Functions in React Components](react/pure-functions.md)
+* [Modern Patterns](react/modern-patterns/README.md)
+  * [Server Components](react/modern-patterns/server-components.md)
+  * [Suspense and Streaming](react/modern-patterns/suspense-streaming.md)
+* [Component Libraries](react/component-libraries/README.md)
+  * [shadcn/ui](react/component-libraries/shadcn-ui.md)
+* [State Management](react/state-management/README.md)
+  * [Zustand](react/state-management/zustand.md)
+  * [Recoil](react/state-management/recoil.md)
+  * [XState](react/state-management/xstate.md)
 
-## Typescript
+## TypeScript
 
-* [Untitled](typescript/untitled.md)
+* [TypeScript Fundamentals](typescript/fundamentals.md)
+* [Advanced Patterns](typescript/advanced-patterns.md)
 
-## Tailwind
+## Tailwind CSS
 
-* [Untitled](tailwind/untitled.md)
+* [Getting Started](tailwind/getting-started.md)
 
 ## Svelte
 
-* [Untitled](svelte/untitled.md)
+* [Introduction](svelte/introduction.md)
 
 ## Angular
 
-* [Functional Reactive Programming in Angular with RxJS](angular/untitled.md)
-* [Untitled](angular/untitled-1.md)
+* [Functional Reactive Programming in Angular with RxJS](angular/rxjs-reactive-programming.md)
+* [Getting Started](angular/getting-started.md)
 
 ## WebAssembly
 
-* [Untitled](webassembly/untitled.md)
+* [Introduction](webassembly/introduction.md)
 
 ## Design Patterns
 
-* [State](design-patterns/untitled.md)
+* [State Pattern](design-patterns/state-pattern.md)
 * [Client-Side Architecture](design-patterns/client-side-architecture.md)
 
 ## Dev Tools
@@ -69,8 +81,31 @@
 
 ## Git
 
-* [Page 1](git/page-1.md)
+* [Git Fundamentals](git/fundamentals.md)
 
-## Next
+## Next.js
 
-* [Page 2](next/page-2.md)
+* [App Router](next/app-router.md)
+
+## Build Tools
+
+* [Vite](build-tools/vite.md)
+* [Turbopack](build-tools/turbopack.md)
+
+## Testing
+
+* [Vitest](testing/vitest.md)
+* [React Testing Library](testing/testing-library.md)
+* [Playwright](testing/playwright.md)
+
+## Deployment
+
+* [Vercel](deployment/vercel.md)
+
+## Performance
+
+* [Core Web Vitals](performance/core-web-vitals.md)
+
+## AI Development
+
+* [Vercel AI SDK](ai-development/vercel-ai-sdk.md)

@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn how to write pure functions in React components for predictable,
+  testable, and maintainable code following React's functional paradigm.
+---
+
 # Writing Pure Functions in React Components
 
 In the realm of React development, understanding the concept of purity in JavaScript functions is paramount. This concept, borrowed from functional programming, emphasizes the importance of functions that do not alter preexisting objects or variables and consistently return the same output for the same inputs. In React, this principle is crucial for maintaining predictable behavior and avoiding bugs as your codebase grows.
