@@ -20,9 +20,15 @@
 ## Vanilla JS
 
 * [JavaScript Cheat Sheet](vanilla-js/cheatsheet.md)
+* [Axios](vanilla-js/axios.md)
+* [Lodash](vanilla-js/lodash.md)
+* [Date-fns](vanilla-js/date-fns.md)
+* [Moment.js](vanilla-js/momentjs.md)
 * [ApexChart.js](vanilla-js/apexchart.js.md)
 * [GridStack.js](vanilla-js/gridstack.js.md)
 * [Strip whitespace from JavaScript strings](vanilla-js/strip-whitespace-from-javascript-strings.md)
+* [P5.js](vanilla-js/p5js.md)
+* [Three.js](vanilla-js/threejs.md)
 
 ## React
 
@@ -47,6 +53,7 @@
   * [Zustand](react/state-management/zustand.md)
   * [Recoil](react/state-management/recoil.md)
   * [XState](react/state-management/xstate.md)
+* [Framer Motion](react/framer-motion.md)
 
 ## TypeScript
 
@@ -63,8 +70,18 @@
 
 ## Angular
 
-* [Functional Reactive Programming in Angular with RxJS](angular/rxjs-reactive-programming.md)
 * [Getting Started](angular/getting-started.md)
+* [Components](angular/components.md)
+* [Services](angular/services.md)
+* [Router](angular/router.md)
+* [Directives](angular/directives.md)
+* [Pipes](angular/pipes.md)
+* [Forms](angular/forms.md)
+* [Angular Material](angular/angular-material.md)
+* [NgRx](angular/ngrx.md)
+* [RxJS](angular/rxjs.md)
+* [Animations](angular/animations.md)
+* [Functional Reactive Programming in Angular with RxJS](angular/rxjs-reactive-programming.md)
 
 ## WebAssembly
 
