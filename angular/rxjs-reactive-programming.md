@@ -2,7 +2,7 @@
 description: Because React doesn’t own reactivity in the front-end space
 ---
 
-# Functional Reactive Programming in Angular with RxJS
+# Functional Reactive Programming Mastery in Angular with RxJS
 
 Alongside React and Vue, **Angular** is considered to be one of the top JS UI frameworks. However, it differentiates itself through a couple of factors. Unlike the other top 2, it’s a full-blown framework, coming with everything you’d want a framework to have. It also has a unique architecture and ideology. This can be seen in its primary language being TypeScript instead of JavaScript, its heavy use of decorators, and its noticeable influence of the **Functional Reactive Programming** paradigm and adoption of many of its patterns.
 

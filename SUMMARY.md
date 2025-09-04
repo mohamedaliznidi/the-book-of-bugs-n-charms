@@ -1,138 +1,138 @@
-# Table of contents
+# Grimoire Contents ✨
 
-* [Front-End Development Documentation](README.md)
+* [The Book of Bugs & Charms](README.md)
 
-## HTML
+## Foundation Runes
 
-* [HTML Fundamentals](html/fundamentals.md)
+* [HTML Elemental Foundations](html/fundamentals.md)
 
-## CSS
+## Styling Enchantments
 
-* [Cheat Sheet](css/cheatsheet.md)
-* [Selectors](css/selectors.md)
-* [Organise Properties](css/organise-properties.md)
-* [Units & Functions](css/units-and-functions.md)
-* [Transitions](css/transitions.md)
-* [Animations](css/animations.md)
-* [Container Queries](css/container-queries.md)
-* [Advanced Grid Layouts](css/advanced-grid-layouts.md)
+* [CSS Spell Compendium](css/cheatsheet.md)
+* [Element Selectors & Targeting Spells](css/selectors.md)
+* [Property Organization Rituals](css/organise-properties.md)
+* [Mystical Units & Arcane Functions](css/units-and-functions.md)
+* [Transformation Transitions](css/transitions.md)
+* [Motion & Animation Spells](css/animations.md)
+* [Container Scrying Queries](css/container-queries.md)
+* [Advanced Grid Layout Sorcery](css/advanced-grid-layouts.md)
 
-## Vanilla JS
+## Core JavaScript Spells
 
-* [JavaScript Cheat Sheet](vanilla-js/cheatsheet.md)
-* [Axios](vanilla-js/axios.md)
-* [Lodash](vanilla-js/lodash.md)
-* [Date-fns](vanilla-js/date-fns.md)
-* [Moment.js](vanilla-js/momentjs.md)
-* [ApexChart.js](vanilla-js/apexchart.js.md)
-* [GridStack.js](vanilla-js/gridstack.js.md)
-* [Strip whitespace from JavaScript strings](vanilla-js/strip-whitespace-from-javascript-strings.md)
-* [P5.js](vanilla-js/p5js.md)
-* [Three.js](vanilla-js/threejs.md)
+* [JavaScript Spell Compendium](vanilla-js/cheatsheet.md)
+* [Axios HTTP Conjuration](vanilla-js/axios.md)
+* [Lodash Utility Enchantments](vanilla-js/lodash.md)
+* [Date-fns Temporal Magic](vanilla-js/date-fns.md)
+* [Moment.js Time Manipulation](vanilla-js/momentjs.md)
+* [ApexChart.js Visualization Spells](vanilla-js/apexchart.js.md)
+* [GridStack.js Layout Enchantments](vanilla-js/gridstack.js.md)
+* [String Purification Rituals](vanilla-js/strip-whitespace-from-javascript-strings.md)
+* [P5.js Creative Conjuration](vanilla-js/p5js.md)
+* [Three.js Dimensional Portal Magic](vanilla-js/threejs.md)
 
-## React
+## React Alchemy
 
-* [React Hooks](react/react-hooks/README.md)
-  * [useState](react/react-hooks/usestate.md)
-  * [useEffect](react/react-hooks/useeffect.md)
-  * [useContext](react/react-hooks/usecontext.md)
-  * [useReducer](react/react-hooks/usereducer.md)
-  * [useCallback](react/react-hooks/usecallback.md)
-  * [useMemo](react/react-hooks/usememo.md)
-  * [useRef](react/react-hooks/useref.md)
-  * [useLayoutEffect](react/react-hooks/uselayouteffect.md)
-  * [useImperativeHandle](react/react-hooks/useimperativehandle.md)
-  * [useDebugValue](react/react-hooks/usedebugvalue.md)
-* [Writing Pure Functions in React Components](react/pure-functions.md)
-* [Modern Patterns](react/modern-patterns/README.md)
-  * [Server Components](react/modern-patterns/server-components.md)
-  * [Suspense and Streaming](react/modern-patterns/suspense-streaming.md)
-* [Component Libraries](react/component-libraries/README.md)
-  * [shadcn/ui Ecosystem](react/component-libraries/shadcn-ecosystem/README.md)
-    * [shadcn/ui](react/component-libraries/shadcn-ecosystem/shadcn-ui.md)
-    * [Motion Primitives](react/component-libraries/shadcn-ecosystem/motion-primitives.md)
-    * [Components.work](react/component-libraries/shadcn-ecosystem/components-work.md)
-    * [Shadcn Form Builder](react/component-libraries/shadcn-ecosystem/shadcn-form-builder.md)
-    * [Origin UI](react/component-libraries/shadcn-ecosystem/origin-ui.md)
-    * [Magic UI](react/component-libraries/shadcn-ecosystem/magic-ui.md)
-    * [React Bits](react/component-libraries/shadcn-ecosystem/react-bits.md)
-    * [AI Elements](react/component-libraries/shadcn-ecosystem/ai-elements.md)
-    * [Aceternity UI](react/component-libraries/shadcn-ecosystem/aceternity-ui.md)
-    * [Tailark](react/component-libraries/shadcn-ecosystem/tailark.md)
-* [State Management](react/state-management/README.md)
-  * [Zustand](react/state-management/zustand.md)
-  * [Recoil](react/state-management/recoil.md)
-  * [XState](react/state-management/xstate.md)
-* [Framer Motion](react/framer-motion.md)
+* [React Mystical Hooks](react/react-hooks/README.md)
+  * [useState - State Binding Spell](react/react-hooks/usestate.md)
+  * [useEffect - Side Effect Enchantment](react/react-hooks/useeffect.md)
+  * [useContext - Context Sharing Ritual](react/react-hooks/usecontext.md)
+  * [useReducer - Complex State Alchemy](react/react-hooks/usereducer.md)
+  * [useCallback - Function Preservation Charm](react/react-hooks/usecallback.md)
+  * [useMemo - Memory Optimization Spell](react/react-hooks/usememo.md)
+  * [useRef - Reference Binding Magic](react/react-hooks/useref.md)
+  * [useLayoutEffect - Layout Synchronization Ritual](react/react-hooks/uselayouteffect.md)
+  * [useImperativeHandle - Imperative Control Enchantment](react/react-hooks/useimperativehandle.md)
+  * [useDebugValue - Debug Divination Spell](react/react-hooks/usedebugvalue.md)
+* [Pure Function Alchemy in React Components](react/pure-functions.md)
+* [Modern React Patterns](react/modern-patterns/README.md)
+  * [Server Component Conjuration](react/modern-patterns/server-components.md)
+  * [Suspense & Streaming Enchantments](react/modern-patterns/suspense-streaming.md)
+* [Component Enchantment Libraries](react/component-libraries/README.md)
+  * [shadcn/ui Magical Ecosystem](react/component-libraries/shadcn-ecosystem/README.md)
+    * [shadcn/ui Core Spells](react/component-libraries/shadcn-ecosystem/shadcn-ui.md)
+    * [Motion Primitives Animation Magic](react/component-libraries/shadcn-ecosystem/motion-primitives.md)
+    * [Components.work Collaborative Enchantments](react/component-libraries/shadcn-ecosystem/components-work.md)
+    * [Shadcn Form Builder Ritual Creator](react/component-libraries/shadcn-ecosystem/shadcn-form-builder.md)
+    * [Origin UI Foundation Spells](react/component-libraries/shadcn-ecosystem/origin-ui.md)
+    * [Magic UI Mystical Components](react/component-libraries/shadcn-ecosystem/magic-ui.md)
+    * [React Bits Component Fragments](react/component-libraries/shadcn-ecosystem/react-bits.md)
+    * [AI Elements Intelligent Enchantments](react/component-libraries/shadcn-ecosystem/ai-elements.md)
+    * [Aceternity UI Cosmic Components](react/component-libraries/shadcn-ecosystem/aceternity-ui.md)
+    * [Tailark Design System Spells](react/component-libraries/shadcn-ecosystem/tailark.md)
+* [State Weaving & Management](react/state-management/README.md)
+  * [Zustand Lightweight State Magic](react/state-management/zustand.md)
+  * [Recoil Atomic State Enchantments](react/state-management/recoil.md)
+  * [XState Machine State Sorcery](react/state-management/xstate.md)
+* [Framer Motion Animation Alchemy](react/framer-motion.md)
 
-## TypeScript
+## Type Divination Arts
 
-* [TypeScript Fundamentals](typescript/fundamentals.md)
-* [Advanced Patterns](typescript/advanced-patterns.md)
+* [TypeScript Fundamental Prophecies](typescript/fundamentals.md)
+* [Advanced Type Pattern Sorcery](typescript/advanced-patterns.md)
 
-## Tailwind CSS
+## Tailwind Utility Charms
 
-* [Getting Started](tailwind/getting-started.md)
+* [Tailwind Awakening Ritual](tailwind/getting-started.md)
 
-## Svelte
+## Svelte Reactive Magic
 
-* [Introduction](svelte/introduction.md)
+* [Svelte Reactive Enchantment Introduction](svelte/introduction.md)
 
-## Angular
+## Angular Framework Sorcery
 
-* [Getting Started](angular/getting-started.md)
-* [Components](angular/components.md)
-* [Services](angular/services.md)
-* [Router](angular/router.md)
-* [Directives](angular/directives.md)
-* [Pipes](angular/pipes.md)
-* [Forms](angular/forms.md)
-* [Angular Material](angular/angular-material.md)
-* [NgRx](angular/ngrx.md)
-* [RxJS](angular/rxjs.md)
-* [Animations](angular/animations.md)
-* [Functional Reactive Programming in Angular with RxJS](angular/rxjs-reactive-programming.md)
+* [Angular Awakening Ceremony](angular/getting-started.md)
+* [Component Creation Spells](angular/components.md)
+* [Service Conjuration Magic](angular/services.md)
+* [Router Navigation Enchantments](angular/router.md)
+* [Directive Behavior Spells](angular/directives.md)
+* [Pipe Transformation Magic](angular/pipes.md)
+* [Form Binding Rituals](angular/forms.md)
+* [Angular Material Design Enchantments](angular/angular-material.md)
+* [NgRx State Management Sorcery](angular/ngrx.md)
+* [RxJS Reactive Stream Magic](angular/rxjs.md)
+* [Animation & Motion Spells](angular/animations.md)
+* [Functional Reactive Programming Mastery](angular/rxjs-reactive-programming.md)
 
-## WebAssembly
+## Binary Assembly Magic
 
-* [Introduction](webassembly/introduction.md)
+* [WebAssembly Performance Enchantments](webassembly/introduction.md)
 
-## Design Patterns
+## Architectural Pattern Arcana
 
-* [State Pattern](design-patterns/state-pattern.md)
-* [Client-Side Architecture](design-patterns/client-side-architecture.md)
+* [State Pattern Behavioral Magic](design-patterns/state-pattern.md)
+* [Client-Side Architecture Blueprints](design-patterns/client-side-architecture.md)
 
-## Dev Tools
+## Developer Mystical Artifacts
 
-* [Console](dev-tools/console.md)
+* [Console Debugging Divination](dev-tools/console.md)
 
-## Git
+## Version Control Time Magic
 
-* [Git Fundamentals](git/fundamentals.md)
+* [Git Temporal Manipulation Fundamentals](git/fundamentals.md)
 
-## Next.js
+## Next.js Portal Framework
 
-* [App Router](next/app-router.md)
+* [App Router Portal Navigation](next/app-router.md)
 
-## Build Tools
+## Build Tool Rituals
 
-* [Vite](build-tools/vite.md)
-* [Turbopack](build-tools/turbopack.md)
+* [Vite Lightning Build Magic](build-tools/vite.md)
+* [Turbopack Accelerated Build Sorcery](build-tools/turbopack.md)
 
-## Testing
+## Quality Assurance Rituals
 
-* [Vitest](testing/vitest.md)
-* [React Testing Library](testing/testing-library.md)
-* [Playwright](testing/playwright.md)
+* [Vitest Testing Enchantments](testing/vitest.md)
+* [React Testing Library Component Verification](testing/testing-library.md)
+* [Playwright End-to-End Testing Magic](testing/playwright.md)
 
-## Deployment
+## Deployment Portal Magic
 
-* [Vercel](deployment/vercel.md)
+* [Vercel Cloud Summoning Rituals](deployment/vercel.md)
 
-## Performance
+## Performance Optimization Spells
 
-* [Core Web Vitals](performance/core-web-vitals.md)
+* [Core Web Vitals Enhancement Magic](performance/core-web-vitals.md)
 
-## AI Development
+## AI Development Sorcery
 
-* [Vercel AI SDK](ai-development/vercel-ai-sdk.md)
+* [Vercel AI SDK Intelligent Enchantments](ai-development/vercel-ai-sdk.md)
