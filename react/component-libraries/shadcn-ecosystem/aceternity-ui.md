@@ -1,13 +1,15 @@
 ---
 description: >-
-  Complete guide to Aceternity UI - a library of Tailwind + Framer Motion components
-  for React/Next.js by Manu Arora. Learn animated components, 3D visuals, premium features,
-  and how to create impressively designed modern websites.
+  Complete grimoire for Aceternity UI - a library of Tailwind + Framer Motion enchantments
+  for React/Next.js by Manu Arora. Master animated enchantments, 3D mystical visuals, premium features,
+  and how to create impressively designed modern mystical websites.
+
+theme: "magic"
 ---
 
-# Aceternity UI
+# Aceternity UI - The 3D Animation Mastery
 
-## Introduction
+## The Ancient Knowledge
 
 Aceternity UI is a library of Tailwind + Framer Motion components for React/Next.js created by Manu Arora. It offers dozens of animated UI components and templates aimed at modern web design, with marketing materials claiming it helps "make your websites look 10x better" with copy-paste components including cards, layouts, and 3D visuals.
 

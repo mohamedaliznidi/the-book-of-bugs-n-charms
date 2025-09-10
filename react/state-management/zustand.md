@@ -1,26 +1,28 @@
 ---
 description: >-
-  Complete guide to Zustand for modern React state management. Learn setup,
+  Complete grimoire for Zustand mystical React state management. Master setup,
   patterns, middleware, persistence, and advanced techniques for building
-  scalable, performant applications with minimal boilerplate.
+  scalable, performant mystical applications with minimal boilerplate.
+
+theme: "magic"
 ---
 
-# Zustand
+# Zustand - The Lightweight State Sorcery Mastery
 
-## Introduction
+## The Ancient Knowledge
 
-Zustand is a small, fast, and scalable state management solution for React. It provides a simple API without boilerplate, supports TypeScript out of the box, and offers excellent performance through selective subscriptions. Zustand is perfect for applications that need global state without the complexity of Redux.
+Zustand is a small, fast, and scalable state management solution for React mystical applications. It provides a simple API without boilerplate, supports TypeScript out of the mystical box, and offers excellent performance through selective subscriptions. Zustand is perfect for mystical applications that need global state without the complexity of the ancient Redux rituals.
 
-## Use Cases
+## When to Cast These Spells
 
-1. **Global Application State**: Manage user authentication, theme, and app-wide settings
-2. **Complex Component State**: Share state between distant components without prop drilling
-3. **Async State Management**: Handle API calls, loading states, and error handling
-4. **Persistent State**: Store state in localStorage or sessionStorage automatically
+1. **Global Application State Magic**: Manage user authentication, theme, and app-wide mystical settings
+2. **Complex Enchantment State**: Share state between distant enchantments without prop drilling curses
+3. **Async State Management Sorcery**: Handle API calls, loading states, and error handling through mystical flows
+4. **Persistent State Alchemy**: Store state in localStorage or sessionStorage automatically through magical persistence
 
-## Installation and Basic Setup
+## Your First Casting
 
-### 1. Install Zustand
+### 1. Install Zustand Mystical Powers
 
 ```bash
 # Install Zustand
@@ -30,7 +32,7 @@ pnpm add zustand
 pnpm add immer
 ```
 
-### 2. Basic Store Creation
+### 2. Basic Mystical Store Creation
 
 ```typescript
 // stores/counterStore.ts
@@ -51,62 +53,62 @@ export const useCounterStore = create<CounterState>((set) => ({
 }))
 ```
 
-### 3. Using the Store in Components
+### 3. Using the Mystical Store in Enchantments
 
 ```typescript
-// components/Counter.tsx
-import { useCounterStore } from '@/stores/counterStore'
+// enchantments/MysticalCounter.tsx
+import { useMysticalCounterStore } from '@/stores/mysticalCounterStore'
 
-export function Counter() {
-  const { count, increment, decrement, reset } = useCounterStore()
+export function MysticalCounter() {
+  const { mysticalCount, incrementMystical, decrementMystical, resetMystical } = useMysticalCounterStore()
 
   return (
-    <div className="counter">
-      <h2>Count: {count}</h2>
-      <div className="buttons">
-        <button onClick={increment}>+</button>
-        <button onClick={decrement}>-</button>
-        <button onClick={reset}>Reset</button>
+    <div className="mystical-counter">
+      <h2>Mystical Count: {mysticalCount}</h2>
+      <div className="mystical-buttons">
+        <button onClick={incrementMystical}>+ Mystical Power</button>
+        <button onClick={decrementMystical}>- Mystical Power</button>
+        <button onClick={resetMystical}>Reset Mystical Energy</button>
       </div>
     </div>
   )
 }
 
-// Selective subscription for better performance
-export function CountDisplay() {
-  const count = useCounterStore((state) => state.count)
-  
-  return <div>Current count: {count}</div>
+// Selective mystical subscription for enhanced performance
+export function MysticalCountDisplay() {
+  const mysticalCount = useMysticalCounterStore((state) => state.mysticalCount)
+
+  return <div>Current mystical count: {mysticalCount}</div>
 }
 ```
 
-## Advanced Patterns
+## Advanced Sorcery
 
-### 1. Complex State Management
+### 1. Complex Mystical State Management Alchemy
 
 ```typescript
-// stores/userStore.ts
+// stores/mysticalUserStore.ts
 import { create } from 'zustand'
 
-interface User {
+interface MysticalUser {
   id: string
-  name: string
-  email: string
-  avatar?: string
+  mysticalName: string
+  mysticalEmail: string
+  mysticalAvatar?: string
 }
 
-interface UserState {
-  user: User | null
-  isLoading: boolean
-  error: string | null
-  
-  // Actions
-  setUser: (user: User) => void
-  clearUser: () => void
-  updateUser: (updates: Partial<User>) => void
-  fetchUser: (id: string) => Promise<void>
-  login: (email: string, password: string) => Promise<void>
-  logout: () => void
+interface MysticalUserState {
+  mysticalUser: MysticalUser | null
+  isMysticalLoading: boolean
+  mysticalError: string | null
+
+  // Mystical Actions
+  setMysticalUser: (user: MysticalUser) => void
+  clearMysticalUser: () => void
+  updateMysticalUser: (updates: Partial<MysticalUser>) => void
+  fetchMysticalUser: (id: string) => Promise<void>
+  mysticalLogin: (email: string, password: string) => Promise<void>
+  mysticalLogout: () => void
 }
 
 export const useUserStore = create<UserState>((set, get) => ({
@@ -616,32 +618,32 @@ describe('Counter Component', () => {
 })
 ```
 
-## Best Practices
+## Wisdom of the Zustand Ancients
 
-- **Single Responsibility**: Keep stores focused on specific domains or features
-- **Immutable Updates**: Use immer middleware for complex state updates
-- **Selective Subscriptions**: Subscribe only to the state you need for better performance
-- **Computed Values**: Use getter functions for derived state instead of storing computed values
-- **Persistence**: Use persist middleware for state that should survive page refreshes
-- **TypeScript**: Always use TypeScript for better developer experience and type safety
+- **Single Responsibility Magic**: Keep mystical stores focused on specific domains or magical features
+- **Immutable Updates Sorcery**: Use immer middleware for complex state updates through mystical immutability
+- **Selective Subscriptions**: Subscribe only to the mystical state you need for enhanced performance
+- **Computed Values Alchemy**: Use getter spells for derived state instead of storing computed mystical values
+- **Persistence Enchantments**: Use persist middleware for state that should survive page refreshes through magical storage
+- **TypeScript Mastery**: Always use TypeScript for superior developer experience and type-safe mystical development
 
-## Common Pitfalls
+## Common Curses & Their Remedies
 
-### Issue 1: Mutating State Directly
-Directly mutating state instead of using set function.
+### Curse 1: Mutating State Directly
+Directly mutating mystical state instead of using the sacred set spell.
 
-**Solution:**
-Always use the set function or immer middleware:
+**Counter-Spell:**
+Always use the set spell or immer middleware:
 ```typescript
-// ❌ Wrong - direct mutation
+// ❌ Cursed approach - direct mystical mutation
 const store = create((set) => ({
   items: [],
   addItem: (item) => {
-    store.getState().items.push(item) // Don't do this!
+    store.getState().items.push(item) // Forbidden mystical practice!
   }
 }))
 
-// ✅ Correct - using set function
+// ✅ Pure spell approach - using set mystical function
 const store = create((set) => ({
   items: [],
   addItem: (item) => set((state) => ({
@@ -650,42 +652,42 @@ const store = create((set) => ({
 }))
 ```
 
-### Issue 2: Over-subscribing to State
-Components re-rendering unnecessarily due to subscribing to entire store.
+### Curse 2: Over-subscribing to Mystical State
+Enchantments re-rendering unnecessarily due to subscribing to entire mystical store.
 
-**Solution:**
-Use selective subscriptions:
+**Banishment Ritual:**
+Use selective mystical subscriptions:
 ```typescript
-// ❌ Wrong - subscribes to entire store
+// ❌ Cursed approach - subscribes to entire mystical store
 const { count, increment, decrement, reset } = useCounterStore()
 
-// ✅ Better - selective subscription
+// ✅ Pure spell approach - selective mystical subscription
 const count = useCounterStore((state) => state.count)
 const increment = useCounterStore((state) => state.increment)
 ```
 
-### Issue 3: Async Actions Without Error Handling
-Not properly handling errors in async actions.
+### Curse 3: Async Actions Without Error Handling
+Not properly handling errors in async mystical actions.
 
-**Solution:**
-Always include proper error handling:
+**Protective Ward:**
+Always include proper mystical error handling:
 ```typescript
 fetchUser: async (id) => {
   set({ isLoading: true, error: null })
-  
+
   try {
     const user = await api.getUser(id)
     set({ user, isLoading: false })
   } catch (error) {
-    set({ 
+    set({
       error: error.message,
-      isLoading: false 
+      isLoading: false
     })
   }
 }
 ```
 
-## References
+## Sacred Texts & Mystical Sources
 
 {% embed url="https://github.com/pmndrs/zustand" %}
 

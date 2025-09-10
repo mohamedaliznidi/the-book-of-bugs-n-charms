@@ -1,26 +1,28 @@
 ---
 description: >-
-  Complete guide to Vitest for modern React testing. Learn setup, configuration,
-  testing patterns, and integration with React Testing Library for fast,
-  reliable unit and integration tests in Vite-powered applications.
+  Master the mystical arts of Vitest for modern React testing enchantments. Learn
+  sacred setup rituals, configuration spells, testing patterns, and integration with
+  React Testing Library for fast, reliable unit and integration tests in Vite-powered realms.
+
+theme: "magic"
 ---
 
-# Vitest
+# The Vitest Testing Sorcery Grimoire
 
-## Introduction
+## The Ancient Knowledge
 
-Vitest is a blazing fast unit testing framework powered by Vite. It provides native ES modules support, TypeScript integration, and excellent performance through Vite's transformation pipeline. Vitest is designed as a drop-in replacement for Jest with better performance and modern features.
+Vitest is a blazing fast unit testing framework powered by the mystical energies of Vite. It provides native ES modules support, TypeScript integration, and excellent performance through Vite's transformation pipeline sorcery. Vitest is designed as a drop-in replacement for Jest with superior performance and modern enchantments for testing your application manifestations.
 
-## Use Cases
+## When to Cast These Spells
 
-1. **React Component Testing**: Unit and integration tests for React components
-2. **Utility Function Testing**: Testing pure functions and business logic
-3. **API Integration Testing**: Testing API calls and data transformations
-4. **Hook Testing**: Testing custom React hooks with React Testing Library
+1. **React Component Testing Rituals**: Unit and integration tests for React component enchantments
+2. **Utility Function Testing Divination**: Testing pure functions and business logic spells
+3. **API Integration Testing Sorcery**: Testing API calls and data transformation enchantments
+4. **Hook Testing Enchantments**: Testing custom React hooks with React Testing Library mystical powers
 
-## Installation and Setup
+## Your First Casting
 
-### 1. Install Vitest and Dependencies
+### 1. Install Vitest and Dependencies Enchantments
 
 ```bash
 # Install Vitest and testing utilities
@@ -33,7 +35,7 @@ pnpm add -D jsdom
 pnpm add -D @vitest/ui @vitest/coverage-v8
 ```
 
-### 2. Vitest Configuration
+### 2. Vitest Configuration Spells
 
 ```typescript
 // vitest.config.ts
@@ -79,7 +81,7 @@ export default defineConfig({
 })
 ```
 
-### 3. Test Setup File
+### 3. Test Setup File Rituals
 
 ```typescript
 // src/test/setup.ts
@@ -128,9 +130,9 @@ Object.defineProperty(window, 'matchMedia', {
 })
 ```
 
-## Basic Testing Patterns
+## Advanced Sorcery
 
-### 1. Component Testing
+### 1. Component Testing Enchantments
 
 ```typescript
 // components/Button.tsx
@@ -199,7 +201,7 @@ describe('Button', () => {
 })
 ```
 
-### 2. Hook Testing
+### 2. Hook Testing Rituals
 
 ```typescript
 // hooks/useCounter.ts
@@ -280,7 +282,7 @@ describe('useCounter', () => {
 })
 ```
 
-### 3. Async Testing
+### 3. Async Testing Divination
 
 ```typescript
 // utils/api.ts
@@ -368,9 +370,9 @@ describe('API functions', () => {
 })
 ```
 
-## Advanced Testing Patterns
+## Master's Rituals
 
-### 1. Testing with Context
+### 1. Testing with Context Enchantments
 
 ```typescript
 // contexts/ThemeContext.tsx
@@ -448,7 +450,7 @@ describe('ThemeToggle', () => {
 })
 ```
 
-### 2. Testing Server Components
+### 2. Testing Server Components Sorcery
 
 ```typescript
 // components/ServerUserList.tsx
@@ -502,7 +504,7 @@ describe('ServerUserList', () => {
 })
 ```
 
-### 3. Testing with MSW (Mock Service Worker)
+### 3. Testing with MSW (Mock Service Worker) Enchantments
 
 ```bash
 # Install MSW
@@ -565,7 +567,7 @@ afterEach(() => {
 afterAll(() => server.close())
 ```
 
-## Package.json Scripts
+## Mystical Package.json Scripts
 
 ```json
 {
@@ -579,22 +581,22 @@ afterAll(() => server.close())
 }
 ```
 
-## Best Practices
+## Wisdom of the Ancients
 
-- **Fast Feedback**: Use Vitest's watch mode for instant test feedback during development
-- **Isolated Tests**: Each test should be independent and not rely on other tests
-- **Descriptive Names**: Use clear, descriptive test names that explain what is being tested
-- **Arrange-Act-Assert**: Structure tests with clear setup, action, and assertion phases
-- **Mock External Dependencies**: Mock API calls, database connections, and external services
-- **Test User Interactions**: Focus on testing user behavior rather than implementation details
+- **Fast Feedback**: Use Vitest's watch mode for instant test feedback during mystical development
+- **Isolated Tests**: Each test should be independent and not rely on other testing enchantments
+- **Descriptive Names**: Use clear, descriptive test names that explain what mystical behavior is being tested
+- **Arrange-Act-Assert**: Structure tests with clear setup, action, and assertion phases for organized sorcery
+- **Mock External Dependencies**: Mock API calls, database connections, and external services for reliable testing
+- **Test User Interactions**: Focus on testing user behavior rather than implementation details or internal magic
 
-## Common Pitfalls
+## Common Curses & Their Remedies
 
-### Issue 1: Async Test Timing
-Tests may fail due to improper handling of async operations.
+### Curse 1: The Async Test Timing Hex
+Tests may fail due to improper handling of async operations and mystical timing issues.
 
-**Solution:**
-Use proper async/await patterns and waitFor utilities:
+**Counter-Spell:**
+Use proper async/await patterns and waitFor utilities for reliable timing:
 ```typescript
 // ❌ Wrong - not waiting for async operation
 it('loads data', () => {
@@ -611,11 +613,11 @@ it('loads data', async () => {
 })
 ```
 
-### Issue 2: Testing Implementation Details
-Testing internal component state instead of user-visible behavior.
+### Curse 2: The Implementation Details Trap
+Testing internal component state instead of user-visible behavior, leading to brittle tests.
 
-**Solution:**
-Focus on testing what users see and do:
+**Counter-Spell:**
+Focus on testing what users see and do in the mystical interface:
 ```typescript
 // ❌ Wrong - testing implementation
 expect(component.state.isLoading).toBe(false)
@@ -624,11 +626,11 @@ expect(component.state.isLoading).toBe(false)
 expect(screen.queryByText('Loading...')).not.toBeInTheDocument()
 ```
 
-### Issue 3: Insufficient Test Cleanup
-Tests affecting each other due to improper cleanup.
+### Curse 3: The Insufficient Test Cleanup Contamination
+Tests affecting each other due to improper cleanup, causing mystical interference between tests.
 
-**Solution:**
-Use proper cleanup and reset mocks:
+**Counter-Spell:**
+Use proper cleanup and reset mocks for pristine test environments:
 ```typescript
 afterEach(() => {
   cleanup()
@@ -636,7 +638,7 @@ afterEach(() => {
 })
 ```
 
-## References
+## Sacred Texts & Mystical Sources
 
 {% embed url="https://vitest.dev/" %}
 

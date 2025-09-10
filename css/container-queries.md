@@ -1,26 +1,28 @@
 ---
 description: >-
-  Complete guide to CSS Container Queries for responsive component design.
-  Learn how to create components that adapt to their container size rather
-  than viewport size, enabling true component-based responsive design.
+  Master the mystical art of Container Divination for adaptive component enchantments.
+  Learn to create magical components that respond to their mystical container realms
+  rather than the viewing portal, enabling true component-based responsive sorcery.
+
+theme: "magic"
 ---
 
-# Container Queries
+# The Container Divination Enchantment
 
-## Introduction
+## The Ancient Knowledge
 
-Container Queries allow elements to respond to the size of their containing element rather than the viewport size. This enables true component-based responsive design, where components can adapt their layout based on the space available to them, regardless of the overall page layout.
+Container Divination allows elements to sense and respond to the dimensions of their mystical containing realm rather than the viewing portal size. This enables true component-based responsive sorcery, where magical components can adapt their manifestation based on the spatial energy available to them, regardless of the overall page constellation.
 
-## Use Cases
+## When to Cast These Spells
 
-1. **Component Libraries**: Create reusable components that adapt to any container size
-2. **Card Layouts**: Design cards that work in different grid configurations
-3. **Sidebar Components**: Components that adapt when moved between main content and sidebar
-4. **Modular Design Systems**: Build truly responsive components independent of page layout
+1. **Component Grimoires**: Create reusable magical components that adapt to any container dimension
+2. **Card Manifestations**: Design mystical cards that harmonize with different grid configurations
+3. **Sidebar Enchantments**: Components that transform when moved between main content and sidebar realms
+4. **Modular Design Rituals**: Build truly responsive components independent of page layout sorcery
 
-## Basic Container Query Setup
+## Your First Casting
 
-### 1. Container Type and Size
+### 1. Container Realm Definition and Dimensional Sensing
 
 ```css
 /* Define a container context */
@@ -65,7 +67,7 @@ Container Queries allow elements to respond to the size of their containing elem
 }
 ```
 
-### 2. Named Containers
+### 2. Sacred Container Naming Rituals
 
 ```css
 /* Named container for specific targeting */
@@ -99,9 +101,9 @@ Container Queries allow elements to respond to the size of their containing elem
 }
 ```
 
-## Practical Examples
+## Advanced Sorcery
 
-### 1. Responsive Card Component
+### 1. Adaptive Card Component Enchantment
 
 ```css
 .card-grid {
@@ -249,7 +251,7 @@ Container Queries allow elements to respond to the size of their containing elem
 }
 ```
 
-### 2. Adaptive Navigation Component
+### 2. Shapeshifting Navigation Enchantment
 
 ```css
 .navigation-wrapper {
@@ -341,7 +343,7 @@ Container Queries allow elements to respond to the size of their containing elem
 }
 ```
 
-### 3. Dashboard Widget System
+### 3. Mystical Dashboard Widget Constellation
 
 ```css
 .dashboard {
@@ -522,9 +524,9 @@ Container Queries allow elements to respond to the size of their containing elem
 }
 ```
 
-## Advanced Techniques
+## Master's Rituals
 
-### 1. Container Query Units
+### 1. Mystical Container Dimensional Units
 
 ```css
 .responsive-text {
@@ -546,7 +548,7 @@ Container Queries allow elements to respond to the size of their containing elem
 }
 ```
 
-### 2. Combining with CSS Grid
+### 2. Harmonizing with Grid Layout Sorcery
 
 ```css
 .layout-grid {
@@ -598,22 +600,22 @@ Container Queries allow elements to respond to the size of their containing elem
 }
 ```
 
-## Best Practices
+## Wisdom of the Ancients
 
-- **Container Context**: Always define `container-type` on parent elements
-- **Named Containers**: Use named containers for complex layouts with multiple query contexts
-- **Progressive Enhancement**: Design mobile-first, then enhance for larger containers
-- **Performance**: Container queries are more performant than JavaScript-based solutions
-- **Fallbacks**: Provide fallbacks for browsers that don't support container queries
-- **Testing**: Test components in various container sizes, not just viewport sizes
+- **Container Realm Definition**: Always define `container-type` on parent elements to establish mystical boundaries
+- **Sacred Naming**: Use named containers for complex layouts with multiple divination contexts
+- **Progressive Enchantment**: Design mobile-first, then enhance for larger container realms
+- **Efficient Sorcery**: Container queries are more performant than JavaScript-based divination solutions
+- **Ancient Compatibility**: Provide fallback spells for browsers that lack container divination powers
+- **Thorough Testing**: Test components in various container dimensions, not just viewing portal sizes
 
-## Common Pitfalls
+## Common Curses & Their Remedies
 
-### Issue 1: Missing Container Type
-Container queries won't work without proper container context.
+### Curse 1: The Missing Realm Definition Hex
+Container divination spells fail without proper mystical container context, leaving your enchantments powerless.
 
-**Solution:**
-Always define container-type:
+**Counter-Spell:**
+Always define the container-type to establish mystical boundaries:
 ```css
 /* ❌ Wrong - no container context */
 @container (min-width: 300px) {
@@ -630,11 +632,11 @@ Always define container-type:
 }
 ```
 
-### Issue 2: Circular Dependencies
-Querying the same element that defines the container.
+### Curse 2: The Circular Divination Trap
+Attempting to divine the same element that defines the mystical container creates a paradoxical loop of infinite confusion.
 
-**Solution:**
-Query child elements, not the container itself:
+**Counter-Spell:**
+Divine child elements, never the container realm itself:
 ```css
 /* ❌ Wrong - circular dependency */
 .container {
@@ -655,11 +657,11 @@ Query child elements, not the container itself:
 }
 ```
 
-### Issue 3: Browser Support
-Container queries are relatively new and may not be supported in older browsers.
+### Curse 3: The Ancient Browser Limitation Hex
+Container divination is a relatively new mystical art and may not be recognized by older browser spirits.
 
-**Solution:**
-Use feature detection and fallbacks:
+**Counter-Spell:**
+Use feature detection and protective fallback enchantments:
 ```css
 /* Fallback styles */
 .card {
@@ -680,7 +682,7 @@ Use feature detection and fallbacks:
 }
 ```
 
-## References
+## Sacred Texts & Mystical Sources
 
 {% embed url="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries" %}
 

@@ -1,12 +1,15 @@
 ---
 description: >-
-  Master CSS animations including keyframes, animation properties, and advanced
-  animation techniques for creating engaging user interfaces.
+  Master the mystical arts of motion enchantments using keyframe sorcery, animation
+  properties, and advanced temporal spells for creating captivating user experiences
+  that dance with life and energy.
+
+theme: "magic"
 ---
 
-# CSS Animations
+# The Motion Enchantment Grimoire
 
-## Introduction
+## The Ancient Knowledge
 
-CSS animations allow you to animate transitions from one CSS style configuration to another. They consist of two components: a style describing the CSS animation and a set of keyframes that indicate the start and end states of the animation's style.
+Motion enchantments allow you to breathe life into static elements by animating transitions from one mystical state to another. These powerful spells consist of two sacred components: a style describing the animation's mystical properties and a set of keyframes that define the beginning and end states of the transformation ritual.
 

@@ -1,29 +1,38 @@
 ---
-description: CSS Transitions
+description: >-
+  Master the mystical art of Transformation Enchantments - smooth metamorphosis
+  spells that gracefully transition elements between different mystical states,
+  creating fluid and captivating visual experiences.
+
+theme: "magic"
 ---
 
-# Transitions
+# The Transformation Enchantment Grimoire
 
-## Anatomy of a Transition
+## The Ancient Knowledge
 
-### Transition-property&#x20;
+Transformation enchantments allow elements to gracefully metamorphose from one mystical state to another, creating smooth and captivating visual transitions. These powerful spells bridge the gap between static styling and full animation magic, providing elegant state changes that enhance user experience.
 
-the property you want to transition.\
-(Only some properties are transitionable, see [goo.gl/Ttk1S2](https://www.w3.org/TR/css-transitions-1/#animatable-properties-))
+## Anatomy of a Transformation Spell
 
-### Transition-duration
+### Mystical Property Selection
 
-In seconds or milliseconds: 4s or 4000ms&#x20;
+The specific property you wish to enchant with transformation magic.\
+(Only certain properties possess the mystical ability to transform, see [Sacred Animatable Properties](https://www.w3.org/TR/css-transitions-1/#animatable-properties-))
 
-### Transition-timing-function
+### Temporal Duration Incantation
 
-"cushioning" for the transition, **Optional:** defaults to ease
+The length of the transformation spell in mystical time units: 4s or 4000ms
 
-### Transition-delay&#x20;
+### Timing Rhythm Enchantment
 
-The number of milli/seconds to delay the transition before firing it **Optional**
+The mystical "cushioning" that controls the transformation's flow, **Optional:** defaults to ease
 
-### **Transition shorthand**
+### Delay Mystical Pause
+
+The number of mystical time units to pause before unleashing the transformation **Optional**
+
+### **Transformation Shorthand Spell**
 
 ```css
 :root {
@@ -32,32 +41,30 @@ The number of milli/seconds to delay the transition before firing it **Optional*
 }
 ```
 
-### Transition Multi Properties
+### Multi-Property Transformation Rituals
 
-Seperate the shorthand transitions with coma. ~~Or use the "all" property for transition-property~~ (DON'T DO IT)
-
-
+Separate multiple transformation spells with mystical commas. ~~Avoid the "all" property for transition-property~~ (FORBIDDEN DARK MAGIC)
 
 ```css
 :root {
-    transition: 
+    transition:
         transform 2s ease-in-out .5s,
         background 1000ms ease-in;
 }
 ```
 
-## Duration
+## Temporal Duration Wisdom
 
-Three timelines for a transition
+Three mystical timelines for transformation enchantments
 
-* **< 100 ms :** Instantaneous
-* **100 \~ 1000 ms :** Connected
-* **10 s :** Disconnected
+* **< 100 ms :** Instantaneous Flash
+* **100 \~ 1000 ms :** Connected Flow
+* **10 s :** Disconnected Drift
 
-**250 \~ 300 ms :** Sweet spot for many animations
+**250 \~ 300 ms :** The sacred sweet spot for most transformation magic
 
-## Summary
+## Wisdom of the Ancients
 
-* **Single fire :** if  you only want something to happen once.
-* **Granularity** : if you would only animate one or two properties in a given state
-* **Bulletproof** : if transitions aren't supported, the change happens anyway
+* **Single Manifestation :** When you desire something to happen only once in response to a mystical trigger
+* **Precise Control :** When you wish to enchant only one or two properties in a given mystical state
+* **Resilient Magic :** When transformation spells aren't supported, the change manifests anyway through ancient fallback magic

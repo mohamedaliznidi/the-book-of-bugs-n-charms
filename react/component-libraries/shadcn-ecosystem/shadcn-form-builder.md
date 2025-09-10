@@ -1,13 +1,15 @@
 ---
 description: >-
-  Complete guide to Shadcn Form Builder - an interactive tool for rapidly creating
-  complex forms with shadcn/UI, React Hook Form, and validation. Learn drag-and-drop
-  form building, code generation, and integration patterns.
+  Complete grimoire for Shadcn Form Builder - an interactive tool for rapidly creating
+  complex mystical forms with shadcn/UI, React Hook Form, and validation magic. Master drag-and-drop
+  mystical form building, code generation, and integration patterns.
+
+theme: "magic"
 ---
 
-# Shadcn Form Builder
+# Shadcn Form Builder - The Form Creation Mastery
 
-## Introduction
+## The Ancient Knowledge
 
 The Shadcn Form Builder is an interactive tool and open-source library for rapidly creating complex forms with shadcn/UI, React Hook Form, and validation libraries like Zod or Yup. Using a drag-and-drop interface, you can define form fields and settings, and the tool auto-generates React code with built-in validation logic.
 

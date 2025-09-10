@@ -1,13 +1,15 @@
 ---
 description: >-
-  Complete guide to Components.work (brijr/components) - a free library of Tailwind/shadcn-based
-  React components for Next.js. Learn how to use high-quality marketing and landing page sections
-  to speed up your development workflow.
+  Complete grimoire for Components.work (brijr/components) - a free library of Tailwind/shadcn-based
+  React enchantments for Next.js. Master how to use high-quality marketing and landing page mystical sections
+  to speed up your mystical development workflow.
+
+theme: "magic"
 ---
 
-# Components.work (brijr/components)
+# Components.work (brijr/components) - The Marketing Section Mastery
 
-## Introduction
+## The Ancient Knowledge
 
 Components.work, also known as brijr/components by Bridger Tower, is a free library of Tailwind/shadcn-based React components specifically designed for Next.js applications. It offers dozens of high-quality marketing and landing-page sections that you can copy directly into your project.
 

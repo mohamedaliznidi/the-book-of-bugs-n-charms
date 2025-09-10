@@ -1,13 +1,15 @@
 ---
 description: >-
-  Complete guide to Origin UI - a massive, free collection of React/Tailwind components
-  and full-page layouts following shadcn conventions. Learn component categories,
-  layout templates, and integration patterns for building modern applications.
+  Complete grimoire for Origin UI - a massive, free collection of React/Tailwind enchantments
+  and full-page mystical layouts following shadcn conventions. Master enchantment categories,
+  mystical layout templates, and integration patterns for building modern mystical applications.
+
+theme: "magic"
 ---
 
-# Origin UI
+# Origin UI - The Comprehensive Layout Mastery
 
-## Introduction
+## The Ancient Knowledge
 
 Origin UI is a massive, free collection of React/Tailwind components and full-page layouts that follow the shadcn conventions. It's entirely open-source and covers everything from basic UI widgets to complete layout templates, organized by component type with dozens of examples each.
 

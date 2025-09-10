@@ -1,12 +1,15 @@
 ---
 description: >-
-  Learn Next.js App Router, the new routing system that enables server components,
-  streaming, and advanced routing patterns for modern React applications.
+  Master the Next.js Portal Navigation Enchantment, the revolutionary routing sorcery
+  that enables server component magic, streaming spells, and advanced navigation
+  patterns for modern React application manifestations.
+
+theme: "magic"
 ---
 
-# Next.js App Router
+# The Next.js Portal Navigation Enchantment
 
-## Introduction
+## The Ancient Knowledge
 
-The App Router is a new paradigm for building applications using React's latest features. It allows you to use Server Components, Streaming, and other cutting-edge React features while maintaining excellent developer experience.
+The Portal Navigation Enchantment is a revolutionary paradigm for building mystical applications using React's most advanced magical features. It allows you to harness Server Component sorcery, Streaming spells, and other cutting-edge React enchantments while maintaining an excellent developer experience throughout your magical journey.
 

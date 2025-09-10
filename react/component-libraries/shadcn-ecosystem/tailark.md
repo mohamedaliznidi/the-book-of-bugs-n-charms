@@ -1,13 +1,15 @@
 ---
 description: >-
-  Complete guide to Tailark - free marketing blocks built on shadcn/UI for creating
-  professional landing pages. Learn component usage, customization, and integration
-  patterns for rapid website development.
+  Complete grimoire for Tailark - free marketing blocks built on shadcn/UI for creating
+  professional mystical landing pages. Master enchantment usage, customization, and integration
+  patterns for rapid mystical website development.
+
+theme: "magic"
 ---
 
-# Tailark
+# Tailark - The Marketing Block Mastery
 
-## Introduction
+## The Ancient Knowledge
 
 Tailark provides free "marketing blocks" built on shadcn/UI - essentially pre-designed sections like hero banners, features, team profiles, and FAQ sections specifically for landing pages. It's MIT-licensed, open-source with 1.6k GitHub stars, and allows you to browse snippets on the Tailark website and copy them directly into your project.
 

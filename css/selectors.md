@@ -1,10 +1,21 @@
-# Selectors
+---
+description: >-
+  Master the mystical art of CSS Element Targeting Spells. Learn to precisely
+  target HTML elements using basic selectors, combination sorcery, attribute
+  enchantments, and pseudo-class mystical powers for styling magic.
+---
 
-## Basic Selectors
+# Element Targeting Spells
 
-### Universal
+## The Ancient Knowledge
 
-Selects all elements
+Element targeting spells are the fundamental mystical arts of CSS that allow you to precisely select and enchant HTML elements. These powerful incantations form the foundation of all styling magic, enabling you to cast visual spells upon specific elements, groups of elements, or elements in particular mystical states.
+
+## Basic Element Targeting Enchantments
+
+### Universal Mystical Selector
+
+Casts spells upon all elements in the mystical realm
 
 ```css
 * {
@@ -12,9 +23,9 @@ Selects all elements
 }
 ```
 
-### Type
+### Type Element Targeting Spell
 
-Select elements of that type
+Target elements of that mystical type
 
 ```css
 div {
@@ -22,9 +33,9 @@ div {
 }
 ```
 
-### Class
+### Class Mystical Identifier
 
-Select elements with that class
+Target elements bearing that mystical class enchantment
 
 ```css
 .class {
@@ -32,9 +43,9 @@ Select elements with that class
 }
 ```
 
-### Id
+### Id Unique Mystical Identifier
 
-Select elements with that id
+Target elements with that unique mystical id
 
 ```css
 #id {
@@ -42,11 +53,11 @@ Select elements with that id
 }
 ```
 
-## Combination Selectors
+## Combination Targeting Sorcery
 
-### Descendant&#x20;
+### Descendant Mystical Lineage
 
-Select elements that are descendants of the first element
+Target elements that are mystical descendants of the first element
 
 ```css
 div a {
@@ -54,9 +65,9 @@ div a {
 }
 ```
 
-### Direct Child
+### Direct Child Mystical Bond
 
-Select elements that are direct children of the first element
+Target elements that are direct mystical children of the first element
 
 ```css
 div > a {
@@ -64,9 +75,9 @@ div > a {
 }
 ```
 
-### General Sibling
+### General Sibling Mystical Kinship
 
-Select elements that are siblings of the first element and come after the first element
+Target elements that are mystical siblings of the first element and come after the first element
 
 ```css
 div ~ a {
@@ -74,9 +85,9 @@ div ~ a {
 }
 ```
 
-### Adjacent Sibling
+### Adjacent Sibling Mystical Proximity
 
-Select elements that are siblings of the first element and come directly after the first element
+Target elements that are mystical siblings of the first element and come directly after the first element
 
 ```css
 div + a {
@@ -84,9 +95,9 @@ div + a {
 }
 ```
 
-### Or
+### Or Mystical Choice Spell
 
-Select elements that match any selector in the list
+Target elements that match any selector in the mystical list
 
 ```css
 div, a {
@@ -94,9 +105,9 @@ div, a {
 }
 ```
 
-### And
+### And Mystical Combination Spell
 
-Select elements that match all the selector combinations
+Target elements that match all the mystical selector combinations
 
 ```css
 div.c {
@@ -104,11 +115,11 @@ div.c {
 }
 ```
 
-## Attribute Selectors
+## Attribute Mystical Property Selectors
 
-### Has
+### Has Mystical Property Spell
 
-Select elements that have that attribute
+Target elements that possess that mystical attribute
 
 ```css
 [a] {
@@ -116,9 +127,9 @@ Select elements that have that attribute
 }
 ```
 
-### Exact
+### Exact Mystical Value Match
 
-Select elements that have that attribute with exactly that value
+Target elements that have that mystical attribute with exactly that enchanted value
 
 ```css
 [a = "1"] {
@@ -126,9 +137,9 @@ Select elements that have that attribute with exactly that value
 }
 ```
 
-### Begins With&#x20;
+### Begins With Mystical Pattern
 
-Select elements that have that attribute which start with that value
+Target elements that have that mystical attribute which start with that enchanted value
 
 ```css
 [a^= "1"] {
@@ -136,9 +147,9 @@ Select elements that have that attribute which start with that value
 }
 ```
 
-### Ends With&#x20;
+### Ends With Mystical Pattern
 
-Select elements that have that attribute which end with that value
+Target elements that have that mystical attribute which end with that enchanted value
 
 ```css
 [a$= "1"] {
@@ -146,9 +157,9 @@ Select elements that have that attribute which end with that value
 }
 ```
 
-### Substing
+### Substring Mystical Pattern
 
-Select elements that have that attribute which contain that value anywhere
+Target elements that have that mystical attribute which contain that enchanted value anywhere
 
 ```css
 [a*= "1"] {
@@ -156,11 +167,11 @@ Select elements that have that attribute which contain that value anywhere
 }
 ```
 
-## Pseudo Element Selector
+## Pseudo Element Mystical Creation Spells
 
-### Before
+### Before Mystical Manifestation
 
-Creates an empty element directly before the children of selected element
+Conjures an empty mystical element directly before the children of selected element
 
 ```css
 div::before {
@@ -168,9 +179,9 @@ div::before {
 }
 ```
 
-### After
+### After Mystical Manifestation
 
-Creates an empty element directly after the children of selected element
+Conjures an empty mystical element directly after the children of selected element
 
 ```css
 div::after {
@@ -178,11 +189,11 @@ div::after {
 }
 ```
 
-## Pseudo Class (State) Selector
+## Pseudo Class (State) Mystical Selectors
 
-### Hover
+### Hover Mystical Interaction
 
-Select elements that are hovered by the mouse
+Target elements that are touched by the mystical mouse cursor
 
 ```css
 div:hover {
@@ -190,19 +201,9 @@ div:hover {
 }
 ```
 
-### Focus
+### Focus Mystical Attention
 
-Select elements that are focused.
-
-```css
-div:focus {
-    ...
-}
-```
-
-### Active
-
-Select elements that are activated.
+Target elements that are receiving mystical focus energy.
 
 ```css
 div:focus {
@@ -210,9 +211,19 @@ div:focus {
 }
 ```
 
-### Required
+### Active Mystical Engagement
 
-Select elements that are required
+Target elements that are in an activated mystical state.
+
+```css
+div:focus {
+    ...
+}
+```
+
+### Required Mystical Necessity
+
+Target elements that are mystically required
 
 ```css
 div:required {
@@ -220,9 +231,9 @@ div:required {
 }
 ```
 
-### Checked
+### Checked Mystical Selection
 
-Select elements that are checked
+Target elements that are in a checked mystical state
 
 ```css
 div:checked {
@@ -230,9 +241,9 @@ div:checked {
 }
 ```
 
-### Disabled
+### Disabled Mystical Dormancy
 
-Select elements that are disabled
+Target elements that are in a disabled mystical state
 
 ```css
 div:disabled {
@@ -240,11 +251,11 @@ div:disabled {
 }
 ```
 
-## Pseudo Class (Position/Other) Selector
+## Pseudo Class (Position/Other) Mystical Selectors
 
-### First Child
+### First Child Mystical Primacy
 
-Select elements that are the first child inside a container
+Target elements that are the first mystical child inside a container
 
 ```css
 div:first-child {
@@ -252,9 +263,9 @@ div:first-child {
 }
 ```
 
-### Last Child
+### Last Child Mystical Finality
 
-Select elements that are the last child inside a container
+Target elements that are the last mystical child inside a container
 
 ```css
 div:last-child {
@@ -262,9 +273,9 @@ div:last-child {
 }
 ```
 
-### Nth Child
+### Nth Child Mystical Formula
 
-Select elements that are the nth child inside a container based on the formula
+Target elements that are the nth mystical child inside a container based on the enchanted formula
 
 ```css
 div:nth-child(n) {
@@ -272,9 +283,9 @@ div:nth-child(n) {
 }
 ```
 
-### Nth Last Child
+### Nth Last Child Mystical Reverse Formula
 
-Select elements that are the nth child inside a container based on the formula counting from the end
+Target elements that are the nth mystical child inside a container based on the enchanted formula counting from the end
 
 ```css
 div:nth-last-child(n) {
@@ -282,9 +293,9 @@ div:nth-last-child(n) {
 }
 ```
 
-### Only Child
+### Only Child Mystical Solitude
 
-Select elements that are the only child inside a container
+Target elements that are the only mystical child inside a container
 
 ```css
 div:only-child {
@@ -292,9 +303,9 @@ div:only-child {
 }
 ```
 
-### First Of Type
+### First Of Type Mystical Category Primacy
 
-Select elements that are the first of a type inside a container
+Target elements that are the first of a mystical type inside a container
 
 ```css
 div:first-of-type {
@@ -302,9 +313,9 @@ div:first-of-type {
 }
 ```
 
-### Last Of Type
+### Last Of Type Mystical Category Finality
 
-Select elements that are the last of a type inside a container
+Target elements that are the last of a mystical type inside a container
 
 ```css
 div:last-of-type {
@@ -312,9 +323,9 @@ div:last-of-type {
 }
 ```
 
-### Nth Of Type
+### Nth Of Type Mystical Category Formula
 
-Select elements that are the nth of a type inside a container based on the formula
+Target elements that are the nth of a mystical type inside a container based on the enchanted formula
 
 ```css
 div:nth-of-type(n) {
@@ -322,9 +333,9 @@ div:nth-of-type(n) {
 }
 ```
 
-### Nth Last Of Type
+### Nth Last Of Type Mystical Category Reverse Formula
 
-Select elements that are the nth of a type inside a container based on the formula counting from the end
+Target elements that are the nth of a mystical type inside a container based on the enchanted formula counting from the end
 
 ```css
 div:nth-last-of-type(n) {
@@ -332,9 +343,9 @@ div:nth-last-of-type(n) {
 }
 ```
 
-### Only Of Type
+### Only Of Type Mystical Category Solitude
 
-Select elements that are the only of a type inside a container
+Target elements that are the only of a mystical type inside a container
 
 ```css
 div:only-of-type {
@@ -342,9 +353,9 @@ div:only-of-type {
 }
 ```
 
-### Not
+### Not Mystical Exclusion Spell
 
-Select all elements that do not match the selector inside the not selector
+Target all elements that do not match the selector inside the mystical exclusion spell
 
 ```css
 div:not(.c) {

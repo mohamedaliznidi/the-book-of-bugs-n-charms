@@ -1,11 +1,14 @@
 ---
 description: >-
-  A comprehensive CSS cheat sheet covering essential properties, selectors,
-  and modern CSS features for quick reference.
+  A comprehensive grimoire of styling enchantments covering essential mystical
+  properties, element targeting spells, and modern CSS sorcery for quick
+  magical reference during your web conjuration rituals.
+
+theme: "magic"
 ---
 
-# CSS Cheat Sheet
+# The Styling Enchantment Grimoire
 
-## Introduction
+## The Ancient Knowledge
 
-This CSS cheat sheet provides a quick reference for essential CSS properties, selectors, and modern features. It's designed to help developers quickly find the CSS syntax they need for common styling tasks.
+This mystical grimoire provides swift access to essential styling spells, element targeting incantations, and modern CSS sorcery. It serves as your trusted companion for quickly locating the precise magical syntax needed for common web styling rituals.

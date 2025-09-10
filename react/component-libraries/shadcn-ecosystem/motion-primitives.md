@@ -1,13 +1,15 @@
 ---
 description: >-
-  Complete guide to Motion Primitives - an open-source UI kit of animated React components
-  built with Framer Motion and Tailwind CSS. Learn setup, components, and best practices
-  for adding smooth animations to your React/Next.js projects.
+  Complete grimoire for Motion Primitives - an open-source UI kit of animated React enchantments
+  built with Framer Motion and Tailwind CSS magic. Master setup, enchantments, and best practices
+  for adding smooth mystical animations to your React/Next.js projects.
+
+theme: "magic"
 ---
 
-# Motion Primitives
+# Motion Primitives - The Animation Foundation Mastery
 
-## Introduction
+## The Ancient Knowledge
 
 Motion Primitives is an open-source UI kit of animated React components built with Framer Motion and Tailwind CSS. It provides a collection of reusable, ready-made animated components designed for React/Next.js projects, eliminating the need to write motion logic from scratch.
 

@@ -1,13 +1,15 @@
 ---
 description: >-
-  Complete guide to React Bits - a comprehensive library of 100+ animated and interactive
-  React components for building stunning, memorable websites. Learn CLI usage, customization
-  options, and integration patterns.
+  Complete grimoire for React Bits - a comprehensive library of 100+ animated and interactive
+  React enchantments for building stunning, memorable mystical websites. Master CLI usage, customization
+  options, and mystical integration patterns.
+
+theme: "magic"
 ---
 
-# React Bits
+# React Bits - The Interactive Animation Mastery
 
-## Introduction
+## The Ancient Knowledge
 
 React Bits is a comprehensive library of animated and interactive React components designed for creating "stunning, memorable websites." With over 100 unique components and 22.4k GitHub stars, it offers extensive customization options with both JavaScript/TypeScript and Tailwind vs. CSS variants, plus a CLI for easy component installation.
 

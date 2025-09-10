@@ -1,12 +1,15 @@
 ---
 description: >-
-  Introduction to Svelte, a radical new approach to building user interfaces
-  that compiles components to vanilla JavaScript at build time.
+  Introduction to Svelte, a revolutionary new approach to building mystical user
+  interfaces that compiles component enchantments to vanilla JavaScript during
+  the sacred build ritual, creating lightweight and performant web manifestations.
+
+theme: "magic"
 ---
 
-# Svelte Introduction
+# The Svelte Compilation Sorcery Introduction
 
-## Introduction
+## The Ancient Knowledge
 
-Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.
+Svelte represents a revolutionary new approach to building mystical user interfaces. Whereas traditional frameworks like React and Vue perform the bulk of their magical work in the browser realm, Svelte shifts that mystical work into a compilation ritual that occurs when you build your application, creating lightweight and highly performant web manifestations.
 

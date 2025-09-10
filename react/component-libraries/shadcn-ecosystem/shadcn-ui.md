@@ -1,26 +1,28 @@
 ---
 description: >-
-  Complete guide to shadcn/ui component library including setup, theming,
-  component usage, customization, and integration with modern React patterns.
-  Build beautiful, accessible interfaces with copy-paste components.
+  Complete grimoire for shadcn/ui enchantment library including setup, theming,
+  enchantment usage, customization, and integration with modern React mystical patterns.
+  Build beautiful, accessible interfaces with copy-paste mystical enchantments.
+
+theme: "magic"
 ---
 
-# shadcn/ui
+# shadcn/ui - The Foundation Enchantment Library Mastery
 
-## Introduction
+## The Ancient Knowledge
 
-shadcn/ui is a collection of reusable components built using Radix UI and Tailwind CSS. Unlike traditional component libraries, shadcn/ui provides copy-paste components that you own and can customize completely. It's designed to be accessible, customizable, and works seamlessly with modern React patterns.
+shadcn/ui is a collection of reusable mystical enchantments built using Radix UI and Tailwind CSS magic. Unlike traditional enchantment libraries, shadcn/ui provides copy-paste enchantments that you own and can customize completely through mystical ownership. It's designed to be accessible, customizable, and works seamlessly with modern React mystical patterns.
 
-## Use Cases
+## When to Cast These Spells
 
-1. **Rapid Prototyping**: Quickly build interfaces with pre-built, accessible components
-2. **Design Systems**: Create consistent design systems with customizable base components
-3. **Production Applications**: Build production-ready applications with battle-tested components
-4. **Accessibility-First**: Ensure your applications meet accessibility standards out of the box
+1. **Rapid Prototyping Magic**: Quickly build interfaces with pre-built, accessible mystical enchantments
+2. **Design Systems Alchemy**: Create consistent design systems with customizable base mystical enchantments
+3. **Production Applications Sorcery**: Build production-ready applications with battle-tested mystical enchantments
+4. **Accessibility-First Magic**: Ensure your applications meet accessibility standards out of the mystical box
 
-## Installation and Setup
+## Your First Casting
 
-### 1. Initialize shadcn/ui in Next.js Project
+### 1. Initialize shadcn/ui Mystical Powers in Next.js Project
 
 ```bash
 # Create new Next.js project
@@ -60,9 +62,9 @@ pnpm add tailwindcss-animate class-variance-authority clsx tailwind-merge lucide
 pnpm add @radix-ui/react-slot @radix-ui/react-dialog @radix-ui/react-dropdown-menu
 ```
 
-## Core Components
+## Advanced Sorcery
 
-### 1. Button Component
+### 1. Button Enchantment
 
 Add the button component:
 
@@ -97,7 +99,7 @@ Add form-related components:
 pnpm dlx shadcn-ui@latest add form input label
 ```
 
-Complete form example:
+Complete mystical form example:
 
 ```typescript
 "use client"
@@ -117,26 +119,26 @@ import {
 } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 
-const formSchema = z.object({
-  username: z.string().min(2, {
-    message: "Username must be at least 2 characters.",
+const mysticalFormSchema = z.object({
+  mysticalUsername: z.string().min(2, {
+    message: "Mystical username must be at least 2 characters.",
   }),
-  email: z.string().email({
-    message: "Please enter a valid email address.",
+  mysticalEmail: z.string().email({
+    message: "Please enter a valid mystical email address.",
   }),
 })
 
-export default function ProfileForm() {
-  const form = useForm<z.infer<typeof formSchema>>({
-    resolver: zodResolver(formSchema),
+export default function MysticalProfileForm() {
+  const mysticalForm = useForm<z.infer<typeof mysticalFormSchema>>({
+    resolver: zodResolver(mysticalFormSchema),
     defaultValues: {
-      username: "",
-      email: "",
+      mysticalUsername: "",
+      mysticalEmail: "",
     },
   })
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values)
+  function onMysticalSubmit(values: z.infer<typeof mysticalFormSchema>) {
+    console.log('Mystical form values:', values)
   }
 
   return (
@@ -531,22 +533,22 @@ export function ProfileForm() {
 }
 ```
 
-## Best Practices
+## Wisdom of the shadcn/ui Ancients
 
-- **Component Ownership**: You own the components, so customize them to fit your needs
-- **Accessibility First**: All components are built with accessibility in mind
-- **TypeScript Integration**: Use TypeScript for better development experience
-- **Consistent Theming**: Use CSS variables for consistent theming across components
-- **Form Validation**: Combine with react-hook-form and zod for robust form handling
-- **Performance**: Components are optimized and tree-shakeable
+- **Enchantment Ownership**: You own the mystical enchantments, so customize them to fit your mystical needs
+- **Accessibility First Magic**: All enchantments are built with accessibility in mystical mind
+- **TypeScript Integration Mastery**: Use TypeScript for superior mystical development experience
+- **Consistent Theming Alchemy**: Use CSS variables for consistent theming across mystical enchantments
+- **Form Validation Sorcery**: Combine with react-hook-form and zod for robust mystical form handling
+- **Performance Magic**: Enchantments are optimized and tree-shakeable through mystical optimization
 
-## Common Pitfalls
+## Common Curses & Their Remedies
 
-### Issue 1: Missing Radix UI Dependencies
-Some components require specific Radix UI primitives.
+### Curse 1: Missing Radix UI Mystical Dependencies
+Some enchantments require specific Radix UI mystical primitives.
 
-**Solution:**
-Install required dependencies when adding components:
+**Counter-Spell:**
+Install required mystical dependencies when adding enchantments:
 ```bash
 pnpm dlx shadcn-ui@latest add dialog
 # This automatically installs @radix-ui/react-dialog
@@ -589,7 +591,7 @@ Use the shadcn/ui naming convention and avoid overriding core variables:
 }
 ```
 
-## References
+## Sacred Texts & Mystical Sources
 
 {% embed url="https://ui.shadcn.com/" %}
 

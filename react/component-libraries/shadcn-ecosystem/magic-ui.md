@@ -1,38 +1,40 @@
 ---
 description: >-
-  Complete guide to Magic UI - an open-source library of 150+ animated React components
-  designed to complement shadcn/ui. Learn Framer Motion integration, component usage,
-  and best practices for building engaging interfaces.
+  Complete grimoire for Magic UI - an open-source library of 150+ animated React enchantments
+  designed to complement shadcn/ui. Master Framer Motion integration, enchantment usage,
+  and best practices for building engaging mystical interfaces.
+
+theme: "magic"
 ---
 
-# Magic UI
+# Magic UI - The Animation Enchantment Mastery
 
-## Introduction
+## The Ancient Knowledge
 
-Magic UI is an open-source library of animated React components specifically designed to complement shadcn/ui. With over 150 prebuilt components and effects, it uses Framer Motion for smooth transitions and has gained significant popularity with 18.6k GitHub stars for building engaging landing pages and product sites.
+Magic UI is an open-source library of animated React enchantments specifically designed to complement shadcn/ui mystical powers. With over 150 prebuilt enchantments and mystical effects, it uses Framer Motion for smooth transitions and has gained significant popularity with 18.6k GitHub stars for building engaging landing pages and mystical product sites.
 
-## Key Features
+## Mystical Key Features
 
-- **150+ Components**: Extensive collection of animated UI elements
-- **Framer Motion Powered**: Smooth, performant animations
-- **shadcn/ui Compatible**: Seamless integration with existing shadcn/ui projects
-- **Copy-Paste Ready**: No complex installation, just copy what you need
-- **TypeScript Support**: Full type safety and IntelliSense
-- **Open Source**: MIT licensed and community-driven
-- **Performance Optimized**: Efficient animations with minimal bundle impact
+- **150+ Enchantments**: Extensive collection of animated UI mystical elements
+- **Framer Motion Powered**: Smooth, performant animations through mystical motion magic
+- **shadcn/ui Compatible**: Seamless integration with existing shadcn/ui mystical projects
+- **Copy-Paste Ready**: No complex installation, just copy what mystical enchantments you need
+- **TypeScript Support**: Full type safety and IntelliSense through mystical typing
+- **Open Source**: MIT licensed and community-driven through mystical collaboration
+- **Performance Optimized**: Efficient animations with minimal bundle impact through magical optimization
 
-## Use Cases
+## When to Cast These Spells
 
-1. **Landing Pages**: Eye-catching hero sections and interactive elements
-2. **Product Showcases**: Animated feature highlights and demonstrations
-3. **Portfolio Sites**: Dynamic project galleries and skill presentations
-4. **Marketing Sites**: Engaging user interactions for better conversions
-5. **SaaS Applications**: Polished interfaces with professional animations
-6. **Interactive Dashboards**: Animated charts and data visualizations
+1. **Landing Pages Magic**: Eye-catching hero sections and interactive mystical elements
+2. **Product Showcases Sorcery**: Animated feature highlights and mystical demonstrations
+3. **Portfolio Sites Alchemy**: Dynamic project galleries and skill mystical presentations
+4. **Marketing Sites Enchantments**: Engaging user interactions for better mystical conversions
+5. **SaaS Applications Magic**: Polished interfaces with professional mystical animations
+6. **Interactive Dashboards**: Animated charts and data mystical visualizations
 
-## Installation and Setup
+## Your First Casting
 
-### 1. Prerequisites
+### 1. Mystical Prerequisites
 
 Ensure you have a Next.js project with shadcn/ui and Framer Motion:
 
@@ -77,9 +79,9 @@ module.exports = {
 }
 ```
 
-## Core Components
+## Advanced Sorcery
 
-### 1. Animated Text Effects
+### 1. Animated Text Mystical Effects
 
 Create engaging text animations:
 
@@ -458,21 +460,21 @@ export default function LiveDashboard() {
 }
 ```
 
-## Best Practices
+## Wisdom of the Magic UI Ancients
 
-1. **Performance**: Use `will-change` CSS property sparingly and remove after animations
-2. **Accessibility**: Respect `prefers-reduced-motion` for users with motion sensitivity
-3. **Timing**: Keep UI animations under 300ms, storytelling animations can be longer
-4. **Easing**: Use appropriate easing functions for natural motion
-5. **Purpose**: Ensure animations serve a functional purpose, not just decoration
-6. **Testing**: Test animations on various devices and connection speeds
+1. **Performance Magic**: Use `will-change` CSS property sparingly and remove after mystical animations
+2. **Accessibility Sorcery**: Respect `prefers-reduced-motion` for users with motion sensitivity through mystical consideration
+3. **Timing Mastery**: Keep UI animations under 300ms, storytelling animations can be longer through mystical timing
+4. **Easing Alchemy**: Use appropriate easing functions for natural mystical motion
+5. **Purpose Magic**: Ensure animations serve a functional purpose, not just mystical decoration
+6. **Testing Wisdom**: Test animations on various devices and connection speeds through mystical validation
 
-## Common Pitfalls
+## Common Curses & Their Remedies
 
-### Issue 1: Animation Performance
-Heavy animations can cause janky performance on slower devices.
+### Curse 1: Animation Performance Degradation
+Heavy mystical animations can cause janky performance on slower devices.
 
-**Solution:**
+**Counter-Spell:**
 ```typescript
 // Use transform properties for better performance
 const optimizedVariants = {
@@ -528,7 +530,7 @@ const HeavyAnimation = dynamic(() => import("magicui/heavy-animation"), {
 })
 ```
 
-## References
+## Sacred Texts & Mystical Sources
 
 {% embed url="https://magicui.design/" %}
 

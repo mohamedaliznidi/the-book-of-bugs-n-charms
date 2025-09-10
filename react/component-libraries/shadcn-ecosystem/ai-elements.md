@@ -1,13 +1,15 @@
 ---
 description: >-
-  Complete guide to AI Elements - a Vercel-supported UI library for building AI/chat interfaces
-  with shadcn/ui. Learn chat components, Vercel AI SDK integration, and conversation UI patterns
-  for modern AI applications.
+  Complete grimoire for AI Elements - a Vercel-supported UI library for building AI/chat mystical interfaces
+  with shadcn/ui magic. Master chat enchantments, Vercel AI SDK integration, and conversation UI mystical patterns
+  for modern AI mystical applications.
+
+theme: "magic"
 ---
 
-# AI Elements
+# AI Elements - The AI Interface Mastery
 
-## Introduction
+## The Ancient Knowledge
 
 AI Elements is a Vercel-supported UI library specifically designed for building AI/chat interfaces, built on shadcn/ui. It provides ready-made React components for common AI app primitives including message threads, chat bubbles, input boxes, action buttons, and reasoning panels, serving as the UI front-end kit for the Vercel AI SDK.
 

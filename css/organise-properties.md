@@ -1,30 +1,39 @@
 ---
-description: The importance of organizing CSS properties within selectors
+description: >-
+  Master the sacred art of organizing mystical properties within element selectors
+  to create harmonious, maintainable, and powerful styling enchantments that follow
+  the ancient order of CSS sorcery.
+
+theme: "magic"
 ---
 
-# Organise Properties
+# The Property Organization Ritual
 
-<figure><img src="../.gitbook/assets/css/organise-properties/ordered-categoriez.png" alt="ordered categories"><figcaption><p>ordered categories </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/css/organise-properties/ordered-categoriez.png" alt="ordered categories"><figcaption><p>The Sacred Order of Mystical Categories</p></figcaption></figure>
 
-## The Steps
+## The Ancient Knowledge
 
-### Step 1: Dimensions Properties
+Proper organization of mystical properties within selectors is a fundamental practice of CSS sorcery. By following the sacred order established by the ancient masters, your spells become more readable, maintainable, and powerful. This ritual ensures that your styling enchantments flow in harmony with the natural order of element manifestation.
 
-<figure><img src="../.gitbook/assets/css/organise-properties/dimensions-properties.png" alt="dimensions properties"><figcaption><p>dimensions properties</p></figcaption></figure>
+## The Seven Sacred Steps
 
-Dimensions properties control the size of elements including width, height, and their minimum and maximum values.
+### Step 1: Dimensional Enchantments
 
-#### Width Properties
-- `width`: Sets the element's width
-- `min-width`: Sets the minimum width
-- `max-width`: Sets the maximum width
+<figure><img src="../.gitbook/assets/css/organise-properties/dimensions-properties.png" alt="dimensions properties"><figcaption><p>Dimensional Enchantment Properties</p></figcaption></figure>
 
-#### Height Properties
-- `height`: Sets the element's height
-- `min-height`: Sets the minimum height
-- `max-height`: Sets the maximum height
+Dimensional enchantments control the mystical size boundaries of elements, defining their width, height, and the sacred limits of their spatial manifestation.
 
-#### Code Example
+#### Width Spells
+- `width`: Defines the element's mystical width
+- `min-width`: Sets the minimum width boundary
+- `max-width`: Establishes the maximum width constraint
+
+#### Height Incantations
+- `height`: Determines the element's mystical height
+- `min-height`: Sets the minimum height boundary
+- `max-height`: Establishes the maximum height constraint
+
+#### Mystical Code Example
 
 ```css
 .element {
@@ -38,24 +47,24 @@ Dimensions properties control the size of elements including width, height, and 
 }
 ```
 
-### Step 2: Placement Properties
+### Step 2: Spatial Positioning Enchantments
 
-<figure><img src="../.gitbook/assets/css/organise-properties//placement-properties.png" alt="placement properties"><figcaption><p>placement properties</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/css/organise-properties//placement-properties.png" alt="placement properties"><figcaption><p>Spatial Positioning Properties</p></figcaption></figure>
 
-Placement properties control how elements are positioned and displayed within their container.
+Spatial positioning enchantments control how elements are positioned and manifested within their mystical container realm.
 
-#### Position Properties
-- `position`: Sets the positioning method (static, relative, absolute, fixed, sticky)
-- `top`, `right`, `bottom`, `left`: Sets the position offset
-- `z-index`: Controls the stacking order
+#### Position Spells
+- `position`: Defines the positioning method (static, relative, absolute, fixed, sticky)
+- `top`, `right`, `bottom`, `left`: Sets the spatial offset coordinates
+- `z-index`: Controls the dimensional stacking order
 
-#### Display and Float Properties
-- `display`: Controls how the element is displayed
-- `float`: Floats the element to the left or right
-- `clear`: Controls which sides of an element other floating elements are not allowed
-- `visibility`: Controls element visibility
+#### Display and Float Incantations
+- `display`: Controls how the element manifests in the layout flow
+- `float`: Levitates the element to the left or right
+- `clear`: Controls which sides repel other floating elements
+- `visibility`: Controls element visibility in the mystical plane
 
-#### Code Example
+#### Mystical Code Example
 
 ```css
 .element {
@@ -70,26 +79,26 @@ Placement properties control how elements are positioned and displayed within th
 }
 ```
 
-### Step 3: Box Model Properties
+### Step 3: Mystical Box Model Enchantments
 
-<figure><img src="../.gitbook/assets/css/organise-properties/box-model-properties.png" alt="box model properties"><figcaption><p>box model properties</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/css/organise-properties/box-model-properties.png" alt="box model properties"><figcaption><p>Mystical Box Model Properties</p></figcaption></figure>
 
-Box model properties control the spacing and borders around elements.
+Box model enchantments control the sacred spacing and protective barriers around elements, defining their mystical boundaries.
 
-#### Margin Properties
-- `margin`: Sets all margins
-- `margin-top`, `margin-right`, `margin-bottom`, `margin-left`: Individual margins
+#### Margin Spells
+- `margin`: Sets all outer mystical spacing
+- `margin-top`, `margin-right`, `margin-bottom`, `margin-left`: Individual margin enchantments
 
-#### Padding Properties
-- `padding`: Sets all padding
-- `padding-top`, `padding-right`, `padding-bottom`, `padding-left`: Individual padding
+#### Padding Incantations
+- `padding`: Sets all inner mystical spacing
+- `padding-top`, `padding-right`, `padding-bottom`, `padding-left`: Individual padding spells
 
-#### Border Properties
-- `border`: Sets all border properties
-- `border-width`, `border-style`, `border-color`: Individual border properties
-- `border-radius`: Rounds the corners
+#### Border Protective Barriers
+- `border`: Sets all border protective properties
+- `border-width`, `border-style`, `border-color`: Individual border enchantments
+- `border-radius`: Rounds the mystical corners with gentle curves
 
-#### Code Example
+#### Mystical Code Example
 
 ```css
 .element {
@@ -103,25 +112,25 @@ Box model properties control the spacing and borders around elements.
 }
 ```
 
-### Step 4: Appearance Properties
+### Step 4: Visual Manifestation Enchantments
 
-<figure><img src="../.gitbook/assets/css/organise-properties/appearance-properties.png" alt="appearance properties"><figcaption><p>appearance properties</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/css/organise-properties/appearance-properties.png" alt="appearance properties"><figcaption><p>Visual Manifestation Properties</p></figcaption></figure>
 
-Appearance properties control the visual styling of elements including colors, backgrounds, and shadows.
+Visual manifestation enchantments control the mystical appearance of elements including colors, backgrounds, and shadow effects that bring elements to life.
 
-#### Background Properties
-- `background`: Shorthand for all background properties
-- `background-color`: Sets the background color
-- `background-image`: Sets the background image
-- `background-size`: Controls background image size
+#### Background Spells
+- `background`: Master spell for all background enchantments
+- `background-color`: Sets the mystical background hue
+- `background-image`: Conjures background imagery
+- `background-size`: Controls the scale of background manifestations
 
-#### Color and Shadow Properties
-- `color`: Sets the text color
-- `opacity`: Controls element transparency
-- `box-shadow`: Adds shadow effects
-- `text-shadow`: Adds text shadow effects
+#### Color and Shadow Incantations
+- `color`: Sets the mystical text hue
+- `opacity`: Controls element transparency in the ethereal plane
+- `box-shadow`: Casts shadow effects around elements
+- `text-shadow`: Weaves shadow magic around text
 
-#### Code Example
+#### Mystical Code Example
 
 ```css
 .element {
@@ -135,25 +144,25 @@ Appearance properties control the visual styling of elements including colors, b
 }
 ```
 
-### Step 5: Font and Text Properties
+### Step 5: Typography Enchantments
 
-<figure><img src="../.gitbook/assets/css/organise-properties//font-text-properties.png" alt="font and text properties"><figcaption><p>font and text properties</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/css/organise-properties//font-text-properties.png" alt="font and text properties"><figcaption><p>Typography Enchantment Properties</p></figcaption></figure>
 
-Font and text properties control typography and text appearance.
+Typography enchantments control the mystical appearance and flow of textual content, shaping how words manifest on the page.
 
-#### Font Properties
-- `font-family`: Sets the font family
-- `font-size`: Sets the font size
-- `font-weight`: Sets the font weight (bold, normal, etc.)
-- `font-style`: Sets the font style (italic, normal, etc.)
+#### Font Spells
+- `font-family`: Selects the mystical font lineage
+- `font-size`: Determines the scale of textual manifestation
+- `font-weight`: Controls the thickness of character strokes (bold, normal, etc.)
+- `font-style`: Sets the character inclination (italic, normal, etc.)
 
-#### Text Properties
-- `text-align`: Controls text alignment
-- `text-decoration`: Controls text decoration (underline, etc.)
-- `line-height`: Sets the line height
-- `letter-spacing`: Controls spacing between letters
+#### Text Flow Incantations
+- `text-align`: Controls the alignment of textual energy
+- `text-decoration`: Adds mystical text embellishments (underline, etc.)
+- `line-height`: Sets the vertical spacing between text lines
+- `letter-spacing`: Controls the mystical spacing between individual characters
 
-#### Code Example
+#### Mystical Code Example
 
 ```css
 .element {
@@ -169,24 +178,24 @@ Font and text properties control typography and text appearance.
 }
 ```
 
-### Step 6: Transform and Animation Properties
+### Step 6: Motion and Transformation Enchantments
 
-<figure><img src="../.gitbook/assets/css/organise-properties/animation-properties.png" alt="transformation and animation properties"><figcaption><p>transformation and animation properties</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/css/organise-properties/animation-properties.png" alt="transformation and animation properties"><figcaption><p>Motion and Transformation Properties</p></figcaption></figure>
 
-Transform and animation properties control element transformations and animations.
+Motion and transformation enchantments control element metamorphosis and temporal animations, bringing life and movement to static elements.
 
-#### Transform Properties
-- `transform`: Applies 2D or 3D transformations
-- `transform-origin`: Sets the origin point for transformations
-- `transform-style`: Controls how nested elements are rendered in 3D space
+#### Transformation Spells
+- `transform`: Applies 2D or 3D spatial transformations
+- `transform-origin`: Sets the mystical pivot point for transformations
+- `transform-style`: Controls how nested elements render in 3D mystical space
 
-#### Animation Properties
-- `animation`: Shorthand for all animation properties
-- `transition`: Controls smooth transitions between property changes
-- `animation-duration`: Sets animation duration
-- `animation-timing-function`: Controls animation timing
+#### Animation Incantations
+- `animation`: Master spell for all animation enchantments
+- `transition`: Controls smooth metamorphosis between property states
+- `animation-duration`: Sets the temporal length of animations
+- `animation-timing-function`: Controls the mystical timing rhythm
 
-#### Code Example
+#### Mystical Code Example
 
 ```css
 .element {
@@ -198,23 +207,23 @@ Transform and animation properties control element transformations and animation
 }
 ```
 
-### Step 7: Miscellaneous Properties
+### Step 7: Auxiliary Mystical Properties
 
-<figure><img src="../.gitbook/assets/css/organise-properties/misc-properties.png" alt="misc properties"><figcaption><p>misc properties</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/css/organise-properties/misc-properties.png" alt="misc properties"><figcaption><p>Auxiliary Mystical Properties</p></figcaption></figure>
 
-Miscellaneous properties include various other CSS properties that don't fit into the above categories.
+Auxiliary mystical properties encompass various other enchantments that don't fit into the primary categories but provide essential interactive and behavioral magic.
 
-#### Cursor and Interaction Properties
-- `cursor`: Changes the mouse cursor appearance
-- `pointer-events`: Controls how elements respond to pointer events
-- `user-select`: Controls text selection behavior
+#### Cursor and Interaction Spells
+- `cursor`: Transforms the mouse cursor appearance
+- `pointer-events`: Controls how elements respond to mystical pointer interactions
+- `user-select`: Controls text selection behavior in the user realm
 
-#### Overflow and Clipping Properties
-- `overflow`: Controls content overflow behavior
-- `overflow-x`, `overflow-y`: Controls horizontal and vertical overflow
-- `clip-path`: Creates clipping regions
+#### Overflow and Clipping Incantations
+- `overflow`: Controls content overflow behavior beyond boundaries
+- `overflow-x`, `overflow-y`: Controls horizontal and vertical overflow separately
+- `clip-path`: Creates mystical clipping regions to hide portions of elements
 
-#### Code Example
+#### Mystical Code Example
 
 ```css
 .element {
@@ -227,13 +236,13 @@ Miscellaneous properties include various other CSS properties that don't fit int
 }
 ```
 
-## Complete Example
+## The Complete Ritual Manifestation
 
-Here's a comprehensive example showing all property categories organized properly:
+Behold, a comprehensive example demonstrating all mystical property categories organized in perfect harmony according to the ancient order:
 
 ```css
-.organized-element {
-    /* 1. Dimension Properties */
+.perfectly-organized-element {
+    /* 1. Dimensional Enchantments */
     width: 500px;
     min-width: 400px;
     max-width: 600px;
@@ -241,7 +250,7 @@ Here's a comprehensive example showing all property categories organized properl
     min-height: 200px;
     max-height: 400px;
 
-    /* 2. Placement Properties */
+    /* 2. Spatial Positioning Enchantments */
     position: relative;
     top: 10px;
     left: 20px;
@@ -250,7 +259,7 @@ Here's a comprehensive example showing all property categories organized properl
     float: none;
     visibility: visible;
 
-    /* 3. Box Model Properties */
+    /* 3. Mystical Box Model Enchantments */
     margin: 20px;
     margin-bottom: 30px;
     padding: 15px;
@@ -258,7 +267,7 @@ Here's a comprehensive example showing all property categories organized properl
     border: 2px solid #333;
     border-radius: 8px;
 
-    /* 4. Appearance Properties */
+    /* 4. Visual Manifestation Enchantments */
     background-color: #f8f9fa;
     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     background-size: cover;
@@ -266,7 +275,7 @@ Here's a comprehensive example showing all property categories organized properl
     opacity: 0.95;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 
-    /* 5. Font and Text Properties */
+    /* 5. Typography Enchantments */
     font-family: 'Inter', -apple-system, sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -276,13 +285,13 @@ Here's a comprehensive example showing all property categories organized properl
     line-height: 1.6;
     letter-spacing: 0.025em;
 
-    /* 6. Transform and Animation Properties */
+    /* 6. Motion and Transformation Enchantments */
     transform: translateY(-2px);
     transform-origin: center;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     animation: fadeInUp 0.6s ease-out;
 
-    /* 7. Miscellaneous Properties */
+    /* 7. Auxiliary Mystical Properties */
     cursor: pointer;
     pointer-events: auto;
     user-select: none;
@@ -290,6 +299,6 @@ Here's a comprehensive example showing all property categories organized properl
 }
 ```
 
-## References
+## Sacred Texts & Mystical Sources
 
 {% embed url="https://medium.com/swlh/better-ways-to-organise-css-properties-9a066e7ded62" %}
