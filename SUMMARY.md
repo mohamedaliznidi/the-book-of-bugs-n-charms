@@ -43,6 +43,11 @@
   * [useLayoutEffect - Layout Synchronization Ritual](react/react-hooks/uselayouteffect.md)
   * [useImperativeHandle - Imperative Control Enchantment](react/react-hooks/useimperativehandle.md)
   * [useDebugValue - Debug Divination Spell](react/react-hooks/usedebugvalue.md)
+  * [useTransition - Concurrent Rendering Enchantment](react/react-hooks/usetransition.md)
+  * [useDeferredValue - Value Deferral Enchantment](react/react-hooks/usedeferredvalue.md)
+  * [useId - Unique Identifier Enchantment](react/react-hooks/useid.md)
+  * [useSyncExternalStore - External Synchronization Enchantment](react/react-hooks/usesyncexternalstore.md)
+  * [useInsertionEffect - Pre-Paint Insertion Enchantment](react/react-hooks/useinsertioneffect.md)
 * [Pure Function Alchemy in React Components](react/pure-functions.md)
 * [Modern React Patterns](react/modern-patterns/README.md)
   * [Server Component Conjuration](react/modern-patterns/server-components.md)
@@ -63,6 +68,7 @@
   * [Zustand Lightweight State Magic](react/state-management/zustand.md)
   * [Recoil Atomic State Enchantments](react/state-management/recoil.md)
   * [XState Machine State Sorcery](react/state-management/xstate.md)
+  * [Redux Toolkit State Orchestration Grimoire](react/state-management/redux-toolkit.md)
 * [Framer Motion Animation Alchemy](react/framer-motion.md)
 
 ## Type Divination Arts
@@ -118,6 +124,7 @@
 
 * [Vite Lightning Build Magic](build-tools/vite.md)
 * [Turbopack Accelerated Build Sorcery](build-tools/turbopack.md)
+* [Webpack Module Bundling Grimoire](build-tools/webpack.md)
 
 ## Quality Assurance Rituals
 
