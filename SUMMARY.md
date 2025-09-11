@@ -143,3 +143,13 @@
 ## AI Development Sorcery
 
 * [Vercel AI SDK Intelligent Enchantments](ai-development/vercel-ai-sdk.md)
+
+## The Cookbook: Production Recipes
+
+* [The Cookbook: Complete Development Workflows](cookbook/README.md)
+* [🧪 Component Cauldron: Storybook & Design System Recipe](cookbook/component-cauldron-recipe.md)
+* [🏢 Enterprise Scroll: Angular + NX Monorepo Recipe](cookbook/enterprise-scroll-recipe.md)
+* [🏰 Full-Stack Tome: Next.js Production Recipe](cookbook/fullstack-tome-recipe.md)
+* [⚡ Lightning Codex: React + Vite Speed Recipe](cookbook/lightning-codex-recipe.md)
+* [📱 Mobile Mystique: React Native & PWA Recipe](cookbook/mobile-mystique-recipe.md)
+* [🌟 Static Sorcery: Astro Content Recipe](cookbook/static-sorcery-recipe.md)

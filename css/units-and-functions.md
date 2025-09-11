@@ -19,31 +19,26 @@ Choosing the right mystical measurements in CSS sorcery is crucial for crafting 
 
 Envision tiny mystical squares upon your viewing portal! Each `px` represents one of these sacred squares, though its actual manifestation depends on your device's mystical pixel density. Perfect for precise layouts on specific devices, but challenging for adaptive responsiveness.
 
-!\[pixel unit graphic, representing a grid of mystical squares on a viewing portal]
 
 ### **Proportional Slice Spell (%):**
 
 Think of % as a mystical slice of the cosmic pie. It draws its power relative to another element's dimensions, scaling beautifully across different viewing portals. Perfect for setting mystical margins, padding, and element dimensions without pixel complications.
 
-!\[percentage unit graphic, showing a mystical pie chart with slices representing different proportions]
 
 ### **Parent Inheritance Magic (em):**
 
 Em follows the mystical footsteps of its parent element. 1em equals the parent's font size, inheriting its responsive essence. Ideal for nested elements where consistent sizing harmony matters.
 
-!\[em unit graphic, with mystical arrows pointing from a parent element's font size to child elements with "1em" labels]
 
 ### **Root Foundation Sorcery (rem):**
 
 Rem channels power from the root, basing itself on the document's **base font size**. This makes rem truly responsive, unaffected by parent element fluctuations. Your most trusted ally for fluid layout magic!
 
-!\[rem unit graphic, with a mystical arrow pointing from the document's base font size to child elements with "1rem" labels]
 
 ### **Viewport Portal Magic (vw, vh, vmin, vmax):**
 
 Think of the viewport as your mystical canvas. vw and vh paint upon it horizontally and vertically, with 1 unit being 1% of the respective dimension. vmin and vmax adapt to the smaller or larger dimension, respectively, maximizing mystical flexibility.
 
-!\[viewport unit graphic, showing a mystical rectangle representing the viewport with percentages labeled along the sides for vw, vh, vmin, and vmax]
 
 ### **Beyond Digital Realms:**
 
